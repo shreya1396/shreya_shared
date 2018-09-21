@@ -1,5 +1,5 @@
 @Library("jenkins-shared-library") _
-    standardPipeline {
+    shreya_shared {
         projectName = "Project1"
         serverDomain = "Project1 Server Domain }
 pipeline {
