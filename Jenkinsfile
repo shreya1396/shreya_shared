@@ -5,6 +5,14 @@
 pipeline {
   agent any
   stages {
+      stage('build') {
+      steps {
+        echo 'verification is successfully done'
+      }
+          stage('test') {
+      steps {
+        echo 'verification is successfully done'
+      }
     stage('verification') {
       steps {
         echo 'verification is successfully done'
